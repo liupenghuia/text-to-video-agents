@@ -1,6 +1,6 @@
 # I002：本地基础工程、身份与项目
 
-日期：2026-10-13。状态：Planned，未开始编码。依据 [ADR-005](../adr/ADR-005-coding-baseline.md)、[边界](../architecture/boundaries.md)、[门禁](../architecture/gates.md)、[TODO](../../todo.md)。
+日期：2026-10-13。状态：Planned，未开始编码。依据 [ADR-005](../adr/ADR-005-coding-baseline.md)、[边界](../architecture/boundaries.md)、[门禁](../architecture/gates.md)、[迭代路线图](./README.md)。
 
 ## 本轮交付边界
 
