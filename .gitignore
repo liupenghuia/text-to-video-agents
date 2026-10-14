@@ -1,0 +1,21 @@
+# Personal memory and task notes (shared AGENTS.md belongs in Git)
+/.local-meta/
+
+# Dependencies and build outputs
+**/node_modules/
+**/dist/
+**/coverage/
+**/.vite/
+**/test-results/
+**/playwright-report/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Local runtime artifacts
+*.log
+.DS_Store
+/infra/data/
