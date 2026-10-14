@@ -5,6 +5,11 @@
 当前项目目标为完整前后端文生视频短剧平台，采用独立 `frontend/` 与 `backend/`，API 与 Worker 在后端内共用业务模块、分别运行。
 
 - [架构与实施 TODO](./todo.md)：当前已确认架构、推荐默认规则、风险、阶段任务与验收门禁。后续启动工程从这里开始。
+- [待确认清单](./docs/product/checkList.md)：编码前收敛清单，包含产品参数、页面/数据/状态/API/音画/费用边界、验收场景与开工门禁；填写后复核再回写正式基线，推荐值不自动生效。
+- [评审与当前默认值](./docs/adr/ADR-005-coding-baseline.md)：用户答复/委托默认、人民币额度、本地规模、保留/恢复目标及修正语义；清单v4最后一列为最终决定。
+- [第一轮I002交付](./docs/iterations/I002-foundation.md)：明确本地工程、身份/私有项目、契约、测试与页面边界，状态Planned。
+- 正式设计基线：[产品范围](./docs/product/scope.md)、[模块边界](./docs/architecture/boundaries.md)、[业务与工程门禁](./docs/architecture/gates.md)；对应决定在 `docs/adr/`，当前均为设计已确定、代码未实现。
+- [对白与镜头时间轴](./docs/architecture/dialogue-timeline.md)：普通话角色短剧、后端存储、前端联合试听、跨 Shot 对白音轨与口型调度；实际音频先于正式分镜和视频。
 - 正式参考资料已归位到 `docs/`；下方现有资料仍是历史流程与调研基线，技术/组织方式等与 TODO 冲突时以新决定为准。
 - [团队 Agent 规则](./AGENTS.md) 与 [共享项目记忆](./docs/PROJECT_MEMORY.md) 纳入版本管理，新成员按这两个入口接续。
 - 个人记忆 `.local-meta/PERSONAL_MEMORY.md` 与任务记录 `.local-meta/sessions/` 忽略 Git；共享流程不依赖它们。
